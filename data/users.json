@@ -1,0 +1,520 @@
+{
+  "users": [
+    {
+      "username": "bilzeeeeeee2.0",
+      "password" : "hello1234",
+      "full_name": "ملک بلال",
+      "profile_img": "../assets/profile/1.jpg",
+      "bio": [
+        "Pubg lover ☺️",
+        "ITianz🔥#gcuf",
+        "Wish me on 17 $ep 🎉",
+        "Life goes on lets live on 🥰"
+      ],
+      "followers": [
+        {
+          "id": 1,
+          "username": "ahmad_haseeb1"
+        },
+        {
+          "id": 2,
+          "username": "adnan_innovatory"
+        },
+        {
+          "id": 3,
+          "username": "itx_ahsan"
+        },
+        {
+          "id": 4,
+          "username": "malik_bilal"
+        },
+        {
+          "id": 5,
+          "username": "zain_techie"
+        },
+        {
+          "id": 6,
+          "username": "muhammad_saad"
+        },
+        {
+          "id": 7,
+          "username": "hassan.codes"
+        },
+        {
+          "id": 8,
+          "username": "abdullah_uiux"
+        },
+        {
+          "id": 9,
+          "username": "rafay_snapz"
+        },
+        {
+          "id": 10,
+          "username": "ayesha_clicks"
+        },
+        {
+          "id": 11,
+          "username": "taha_travels"
+        },
+        {
+          "id": 12,
+          "username": "nimra_vibes"
+        },
+        {
+          "id": 13,
+          "username": "sana_diaries"
+        },
+        {
+          "id": 14,
+          "username": "usama.dev"
+        },
+        {
+          "id": 15,
+          "username": "laiba_styles"
+        }
+      ],
+      "following": [
+        {
+          "id": 1,
+          "username": "ahmad_haseeb1"
+        },
+        {
+          "id": 2,
+          "username": "adnan_innovatory"
+        },
+        {
+          "id": 3,
+          "username": "itx_ahsan"
+        },
+        {
+          "id": 4,
+          "username": "malik_bilal"
+        },
+        {
+          "id": 5,
+          "username": "zain_techie"
+        },
+        {
+          "id": 6,
+          "username": "abdullah_uiux"
+        }
+      ],
+      "posts": [
+        {
+          "id": 1,
+          "src": "../assets/profile/2.jpg",
+          "caption": "Evening vibes 🌇",
+          "likes": 16,
+          "comments": [
+            {
+              "id": 1,
+              "username": "ahmad_haseeb1",
+              "comment": "Good",
+              "profile_img": "../assets/profile/4.jpg",
+              "likes": 0,
+              "reply": []
+            },
+            {
+              "id": 2,
+              "username": "adnan_innovatory",
+              "comment": "Amazing content!",
+              "profile_img": "../assets/profile/3.jpg",
+              "likes": 3,
+              "reply": []
+            },
+            {
+              "id": 3,
+              "username": "itx_ahsan",
+              "comment": "Keep it up!",
+              "profile_img": "../assets/profile/2.jpg",
+              "likes": 1,
+              "reply": []
+            },
+            {
+              "id": 4,
+              "username": "malik_bilal",
+              "comment": "Nice post 👍",
+              "profile_img": "../assets/profile/1.jpg",
+              "likes": 2,
+              "reply": []
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "src": "../assets/profile/3.jpg",
+          "caption": "New design just dropped 💻🎨",
+          "likes": 24,
+          "comments": [
+            {
+              "id": 1,
+              "username": "laiba_styles",
+              "comment": "Love the colors!",
+              "profile_img": "../assets/profile/6.jpg",
+              "likes": 2,
+              "reply": []
+            },
+            {
+              "id": 2,
+              "username": "zain_techie",
+              "comment": "Awesome shot!",
+              "profile_img": "../assets/profile/4.jpg",
+              "likes": 5,
+              "reply": []
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "src": "../assets/profile/1.jpg",
+          "caption": "Lost in nature 🌿",
+          "likes": 8,
+          "comments": [
+            {
+              "id": 1,
+              "username": "nimra_vibes",
+              "comment": "So peaceful 😍",
+              "profile_img": "../assets/profile/1.jpg",
+              "likes": 1,
+              "reply": []
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "src": "../assets/profile/4.jpg",
+          "caption": "Editing magic ✨",
+          "likes": 32,
+          "comments": [
+            {
+              "id": 1,
+              "username": "hassan.codes",
+              "comment": "Clean edit 🔥",
+              "profile_img": "../assets/profile/3.jpg",
+              "likes": 4,
+              "reply": []
+            },
+            {
+              "id": 2,
+              "username": "ayesha_clicks",
+              "comment": "Incredible view!",
+              "profile_img": "../assets/profile/1.jpg",
+              "likes": 6,
+              "reply": []
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "src": "../assets/profile/5.jpg",
+          "caption": "Adventure awaits 🏞️",
+          "likes": 15,
+          "comments": [
+            {
+              "id": 1,
+              "username": "taha_travels",
+              "comment": "Where is this place?",
+              "profile_img": "../assets/profile/6.jpg",
+              "likes": 2,
+              "reply": []
+            },
+            {
+              "id": 2,
+              "username": "usama.dev",
+              "comment": "Smooth capture 🎥",
+              "profile_img": "../assets/profile/4.jpg",
+              "likes": 3,
+              "reply": []
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "src": "../assets/profile/6.jpg",
+          "caption": "Weekend mood 🔆",
+          "likes": 19,
+          "comments": [
+            {
+              "id": 1,
+              "username": "abdullah_uiux",
+              "comment": "Aesthetic 👌",
+              "profile_img": "../assets/profile/2.jpg",
+              "likes": 2,
+              "reply": []
+            },
+            {
+              "id": 2,
+              "username": "sana_diaries",
+              "comment": "Mood 💖",
+              "profile_img": "../assets/profile/1.jpg",
+              "likes": 1,
+              "reply": []
+            }
+          ]
+        }
+      ],
+      "reels": [
+        {
+          "id": 1,
+          "src": "../assets/profile/reels/1.mp4",
+          "caption": "City lights never sleep 🌃",
+          "likes": 16,
+          "views": 120,
+          "comments": [
+            {
+              "id": 1,
+              "username": "ahmad_haseeb1",
+              "comment": "Good",
+              "profile_img": "../assets/profile/5.jpg",
+              "likes": 0,
+              "reply": []
+            },
+            {
+              "id": 2,
+              "username": "adnan_innovatory",
+              "comment": "Amazing content!",
+              "profile_img": "../assets/profile/2.jpg",
+              "likes": 3,
+              "reply": []
+            },
+            {
+              "id": 3,
+              "username": "itx_ahsan",
+              "comment": "Keep it up!",
+              "profile_img": "../assets/profile/3.jpg",
+              "likes": 1,
+              "reply": []
+            },
+            {
+              "id": 4,
+              "username": "malik_bilal",
+              "comment": "Nice post 👍",
+              "profile_img": "../assets/profile/1.jpg",
+              "likes": 2,
+              "reply": []
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "src": "../assets/profile/reels/2.mp4",
+          "caption": "Throwback to this perfect sunset 🌇",
+          "likes": 24,
+          "views": 180,
+          "comments": [
+            {
+              "id": 1,
+              "username": "laiba_styles",
+              "comment": "Love the colors!",
+              "profile_img": "../assets/profile/1.jpg",
+              "likes": 2,
+              "reply": []
+            },
+            {
+              "id": 2,
+              "username": "zain_techie",
+              "comment": "Awesome shot!",
+              "profile_img": "../assets/profile/2.jpg",
+              "likes": 5,
+              "reply": []
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "src": "../assets/profile/reels/3.mp4",
+          "caption": "When nature speaks 🍃",
+          "profile_img": "../assets/profile/6.jpg",
+          "likes": 8,
+          "views": 75,
+          "comments": [
+            {
+              "id": 1,
+              "username": "nimra_vibes",
+              "comment": "So peaceful 😍",
+              "profile_img": "../assets/profile/4.jpg",
+              "likes": 1,
+              "reply": []
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "src": "../assets/profile/reels/4.mp4",
+          "caption": "Transitions on point 👌🎬",
+          "likes": 32,
+          "views": 250,
+          "comments": [
+            {
+              "id": 1,
+              "username": "hassan.codes",
+              "comment": "Clean edit 🔥",
+              "profile_img": "../assets/profile/2.jpg",
+              "likes": 4,
+              "reply": []
+            },
+            {
+              "id": 2,
+              "username": "ayesha_clicks",
+              "comment": "Incredible view!",
+              "profile_img": "../assets/profile/1.jpg",
+              "likes": 6,
+              "reply": []
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "src": "../assets/profile/reels/5.mp4",
+          "caption": "Mountains are calling 🏔️",
+          "likes": 15,
+          "views": 100,
+          "comments": [
+            {
+              "id": 1,
+              "username": "taha_travels",
+              "comment": "Where is this place?",
+              "profile_img": "../assets/profile/4.jpg",
+              "likes": 2,
+              "reply": []
+            },
+            {
+              "id": 2,
+              "username": "usama.dev",
+              "comment": "Smooth capture 🎥",
+              "profile_img": "../assets/profile/3.jpg",
+              "likes": 3,
+              "reply": []
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "src": "../assets/profile/reels/6.mp4",
+          "caption": "Weekend vibes be like ☕📖",
+          "likes": 19,
+          "views": 140,
+          "comments": [
+            {
+              "id": 1,
+              "username": "abdullah_uiux",
+              "comment": "Aesthetic 👌",
+              "profile_img": "../assets/profile/1.jpg",
+              "likes": 2,
+              "reply": []
+            },
+            {
+              "id": 2,
+              "username": "sana_diaries",
+              "comment": "Mood 💖",
+              "profile_img": "../assets/profile/2.jpg",
+              "likes": 1,
+              "reply": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "username": "adnan123",
+      "password": "hello1234",
+      "full_name": "Adnan Nazir",
+      "profile_img": "../assets/profile/adnan/1.jpg",
+      "bio": [
+        "Designing my way 🎨",
+        "Tech & coffee ☕",
+        "Dream big, hustle hard 🚀"
+      ],
+      "followers": [
+        {
+          "id": 1,
+          "username": "bilzeeeeeee2.0"
+        },
+        {
+          "id": 2,
+          "username": "itx_ahsan"
+        },
+        {
+          "id": 3,
+          "username": "zain_techie"
+        },
+        {
+          "id": 4,
+          "username": "ayesha_clicks"
+        }
+      ],
+      "following": [
+        {
+          "id": 1,
+          "username": "bilzeeeeeee2.0"
+        },
+        {
+          "id": 2,
+          "username": "abdullah_uiux"
+        }
+      ],
+      "posts": [
+        {
+          "id": 1,
+          "src": "../assets/profile/adnan_post1.jpg",
+          "caption": "Creative space loading... 💡",
+          "likes": 10,
+          "comments": [
+            {
+              "id": 1,
+              "username": "bilzeeeeeee2.0",
+              "comment": "Nice setup bro!",
+              "profile_img": "../assets/profile/1.jpg",
+              "likes": 1,
+              "reply": []
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "src": "../assets/profile/adnan_post2.jpg",
+          "caption": "Minimal vibes ✨",
+          "likes": 7,
+          "comments": [
+            {
+              "id": 1,
+              "username": "ayesha_clicks",
+              "comment": "Love the tones!",
+              "profile_img": "../assets/profile/5.jpg",
+              "likes": 2,
+              "reply": []
+            },
+            {
+              "id": 2,
+              "username": "zain_techie",
+              "comment": "Clean shot 🔥",
+              "profile_img": "../assets/profile/4.jpg",
+              "likes": 1,
+              "reply": []
+            }
+          ]
+        }
+      ],
+      "reels": [
+        {
+          "id": 1,
+          "src": "../assets/profile/reels/adnan_reel1.mp4",
+          "caption": "Editing flow 🎬",
+          "likes": 11,
+          "views": 95,
+          "comments": [
+            {
+              "id": 1,
+              "username": "itx_ahsan",
+              "comment": "Smooth transition!",
+              "profile_img": "../assets/profile/3.jpg",
+              "likes": 1,
+              "reply": []
+            }
+          ]
+        }
+      ]
+    }
+    
+  ]
+}

@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav {
+    width: 100%;
+  max-width: 1050px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 4px 40px;
+  justify-content: space-between;
+}
+nav .left img {
+  display: flex;
+  align-items: center;
+  width: 100px;
+}
+nav .right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+nav .right a {
+  text-decoration: none;
+  padding: 7px 16px;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.2s linear;
+  font-size: 14px;
+}
+nav .right .login{
+    color: #fff;
+    background-color: #1877F2;
+}
+nav .right .login:hover{
+    background-color: #186ede;
+}
+nav .right .signup{
+    color: #0095F6;
+   
+}
+nav .right .signup:hover{
+   background-color: rgba(73, 73, 73, 0.112);
+   color: #616161;
+}
+main{
+    padding: 60px 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.resetForm{
+    width: 380px;
+    min-height: 500px;
+}
+.resetForm #form{
+    border: 1px solid #DBDBDB;
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 35px 30px;
+ }
+#form form{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+#form .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    /* background: #000; */
+}
+#form .content h3{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+#form .content p{
+    text-align: center;
+    font-size: 14px;
+    color: rgb(115, 115, 115);
+}
+#form form input:not(input[type='submit']){
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: none;
+    border: 1px solid #DBDBDB;
+    border-radius: 7px;
+    padding: 10px;
+}
+#form form input[type='submit']{
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    margin-top: 7px;
+    color: #fff;
+    background: #4CB5F9;
+    cursor: pointer;
+    padding: 7px;
+}
+#cantReset{
+    text-align: center;
+    font-size: 12px;
+    text-decoration: none;
+    color: #29377E;
+    margin-top: -5px;
+}
+#cantReset:hover{
+    margin-top: 10px;
+}
+.or{
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+    color: #737373;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.or::after{
+    content: "";
+    position: absolute;
+    background: #DBDBDB;
+    top: 50%;
+    height: 1px;
+    width: 45%;
+    border-radius: 10px;
+    margin-left: 8px;
+}
+.or::before{
+    content: "";
+    position: absolute;
+    background: #DBDBDB;
+    top: 50%;
+    left: 0;
+    height: 1px;
+    width: 45%;
+    border-radius: 10px;
+}
+.createNew{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 16px;
+    padding-bottom: 40px;
+}
+.createNew a,.resetForm .bottom a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+    transition: all 0.2s linear;
+}
+.createNew a:hover,.resetForm .bottom a:hover{
+    color: #616161;
+}
+
+.resetForm .bottom{
+    /* margin-top: 90px; */
+    border: 1px solid #DBDBDB ;
+    text-align: center;
+    padding: 13px;
+}
+/* .resetForm .bottom a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+    transition: all 0.2s linear;
+} */
+footer{
+    /* max-width: 800px; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 100px 10px 50px;
+}
+footer ul{
+    display: flex;
+    max-width: 900px;
+    /* width: 100%; */
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+    list-style-type: none;
+}
+footer ul li a{
+    text-decoration: none;
+    font-size: 13px;
+    color: rgb(115, 115, 115);
+    transition: all 0.1s linear;
+}
+footer ul li a:hover{
+    text-decoration: underline;
+}
+footer ul li,select{
+    font-size: 13px;
+    color: rgb(115, 115, 115);
+}
+footer select{
+    border: none;
+    outline: none;
+}
+footer select option{
+    color: #000;
+}
+@media only screen and (max-width:900px) {
+   
+    footer{
+        padding-top: 140px;
+    }
+}
+@media only screen and (max-width:600px){
+    nav{
+        padding: 4px 10px;
+    }
+    nav .left img {
+        width: 90px;
+      }
+      nav .right {
+        gap: 3px;
+      }
+      nav .right a {
+        padding: 5px 14px;
+        font-size: 13px;
+      }
+    .resetForm #form{
+        border: none;
+     }
+}
+@media only screen and (max-width:410px) {
+    footer{
+        padding-top: 180px;
+    }
+    .resetForm{
+        width: 300px;
+    }
+    .resetForm #form{
+        border: none;
+        padding: 20px 16px 30px;
+     }
+}
+
