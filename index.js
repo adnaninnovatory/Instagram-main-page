@@ -31,7 +31,6 @@ logo.addEventListener("change", () => navLogo(logo))
 
 // ? Navlogo change for 1264px
 
-
 // ? Insta Story
 const stories = [
     { username: "Instagram", image: "../assets/profile/3.jpg" },
